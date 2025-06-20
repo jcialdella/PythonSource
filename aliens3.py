@@ -17,8 +17,8 @@ clock = pygame.time.Clock()
 FONT = pygame.font.SysFont("Courier", 18)
 
 # Load assets
-PLAYER_IMG = pygame.transform.scale(pygame.image.load("player.png"), (40, 40))
-ALIEN_IMG = pygame.transform.scale(pygame.image.load("alien.png"), (30, 30))
+PLAYER_IMG = pygame.transform.scale(pygame.image.load("player.png"), (50, 50))
+ALIEN_IMG = pygame.transform.scale(pygame.image.load("alien.png"), (40, 40))
 LASER_SOUND = pygame.mixer.Sound("laser.wav")
 EXPLOSION_SOUND = pygame.mixer.Sound("explosion.wav")
 POWERUP_SOUND = pygame.mixer.Sound("powerup.wav")
