@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 # --- Configuration ---
 class Config:
-    WIDTH, HEIGHT = 600, 400
+    WIDTH, HEIGHT = 600, 400  # Window size
     FPS = 60
     WHITE = (255, 255, 255)
     PLAYER_SPEED = 6
