@@ -90,7 +90,7 @@ def update_contact():
 
 # --- GUI Setup ---
 root = tk.Tk()
-root.title("Elegant Address Book")
+root.title("Address Book")
 
 # Use a dedicated frame for clean layout
 form_frame = tk.Frame(root)
